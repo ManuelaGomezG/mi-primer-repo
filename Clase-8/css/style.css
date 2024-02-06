@@ -1,0 +1,130 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* color: #0586d */
+
+nav {
+    background-color: chocolate;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 5px;
+    color: #ffff;
+    border: 2px solid #fff;
+}
+
+.pseudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.box {
+    width: 70%;
+    background-color: #1111;
+    padding: 15px;
+    border: 2px solid #111;
+    display: flex;
+    gap: 15px;
+    transition: 0.5s;
+}
+
+.box-img {
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 50%;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+    transition: 0.5s;
+}
+
+.box:hover img {
+    filter: blur(0);
+    width: 500px;
+    height: 500px;
+}
+
+.box-content a {
+    align-self: flex-end;
+    background-color: transparent;
+    border: 2px solid #111;
+    color: #111;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.box:nth-child(even) a {
+    align-self: flex-start;
+}
+
+.box-content a:hover {
+    background-color: #111;
+    color: azure;
+}
+
+.box:hover {
+    background-color: azure;
+    box-shadow: 3px 3px 13px 5px #11111129;
+}
+
+
+.box:nth-child(even) {
+    background-color: bisque;
+    flex-direction: row-reverse;
+}
+
+.box:nth-child(even):hover {
+    background-color: burlywood;
+}
+
+
+
+/* para cambiar el color de la seleccion */
+::selection {
+    background-color: rgb(199, 100, 187);
+    color: #111;
+}
+
+.box-content h2 {}
+
+.nav__list__item__link:hover {
+    background-color: #111;
+}
+

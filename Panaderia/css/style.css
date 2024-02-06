@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    marging: 0;
+    box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;1,400&family=Roboto+Flex:opsz,wght@8..144,200;8..144,500&display=swap');
+
+
+
+main {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+main section {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+h1,
+h2 {
+    background-color: rgb(115, 13, 13);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.navegador {
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+}
+
+
+.nav-link img {
+    width: 30px;
+}
+
+
+.nav-link {
+    text-align: right;
+    border-color: rgb(115, 13, 13);
+    color: white;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.background {
+    background-image: url(https://img.freepik.com/foto-gratis/bolsa-papel-pan-cesto-hojaldre_23-2148359148.jpg?w=826&t=st=1704861879~exp=1704862479~hmac=0f4f24002ed8f0c878f8972b3e3df16e0a92fefa6845c4be1b2989f0d060ca6e);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+.hero-card img,
+.hero-card2 img {
+    width: 170px;
+}
+
+
+
+footer {
+    background-color: rgb(115, 13, 13);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+}

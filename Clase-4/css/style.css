@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    marging: 0;
+    box-sizing: border-box;
+}
+
+/*Fuente web*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif; 
+font-family: 'Roboto Flex', sans-serif;
+*/
+
+
+/*Fuenta local*/
+
+/*@font-face {
+    font-family: "Roboto";
+    src: url(../assets/font/Roboto/Roboto-BoldItalic.ttf)
+}*/
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+main section {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.container,
+.container-2 {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 100%;
+    overflow: visible;
+    /*Padding relleno de caja*/
+    /*Padding manecillas del reloj*/
+    /*Padding-top:60px;
+padding-right: 40px;
+padding-bottom: 20px;}
+padding.left:50px; */
+    /*padding: 60px 40px 20px 50px; */
+    padding: 30px;
+    padding: 70px 30px;
+
+    /*margin*/
+    /* el auto es para que se centre el contenido*/
+    margin: 30px auto;
+
+    /*border*/
+    border: 4px solid red;
+    border-radius: 5px;
+}
+
+
+
+
+.container-2 {
+    overflow: auto;
+}
+
+.container-2 img {
+    width: 100%;
+}
+
+
+.nav {
+    padding: 30px;
+    background-color: black;
+}
+
+.nav-list {
+    text-align: right;
+}
+
+.nav-list li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) ;
+    font-size: 24px;
+    text-decoration: none;
+}

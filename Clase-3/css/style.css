@@ -1,0 +1,75 @@
+ /*
+ h2 {
+    color: purple;
+ }
+
+ h2 {
+    color: red;
+ }
+
+ # es para llamar a los ID que es unico, no se puede reutilizar
+ #titulo {
+    color: green;
+ }
+
+ . el punto es llamar a las class
+ .titulo {
+    color: brown
+ } */
+
+/* esto es un comentario*/
+body{
+   background-color: rgb(0, 0, 0);
+   /*background-image: url('../assets/images/michi.jpg');
+   background-size: cover;
+}
+*/
+ .title{
+   color:rgb(138, 205, 181);
+ }
+
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 24px;
+   text-align: center;
+ }
+
+p {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:#121111;
+   font-weight: bolder;
+   font-style: italic;
+}
+
+ .container p{
+   color: rgb(255, 255, 255);
+}
+
+ul {
+   list-style-type:none;
+}
+
+a{
+   text-decoration: none ;
+   /* text-decoration: line-through; */
+   text-transform: uppercase;
+}
+}
+
+.background {
+   background-image: url('https://media.istockphoto.com/id/1280715670/es/foto/paisaje-de-monta%C3%B1a-brumoso.jpg?s=1024x1024&w=is&k=20&c=Zhn3KmwTVC5KGbEjEQOZm3r3ynHz2ythS-LnGdDQ_lc=');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+}
+
+.background p{
+   color:transparent;
+}

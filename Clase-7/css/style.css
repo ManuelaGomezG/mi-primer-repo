@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #111;
+    color: bisque;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    min-height: 250px;
+    max-height: 100%;
+}
+
+.box b1 {
+    grid-area: header;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    gap: 5px;
+
+}
+
+.box b2 {
+    grid-area: main;
+}
+
+.box b3 {
+    grid-area: footer;
+}
+
+/* media queries DESKTOP FIRST*/
+
+/*@media (max-width:1024px) {
+    .box {
+        background-color: bisque;
+        color: #111;
+
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        grid-template-areas:
+            'footer header'
+            'main header';
+    }
+}
+
+.b2{
+    background-image: url(../images/biblioteca.avif) 
+    ;background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    max-height: 100%;
+    color: bisque;
+}
+
+@media (max-width:480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}*/
+
+
+/* MOBILE FIRST */
+
+/*@media (min-width:480px) {
+    .box {
+        background-color: burlywood;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            'footer header'
+            'main header';
+    }
+}
+
+.b2 {
+    background-image: url(../images/biblioteca.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    max-height: 100%;
+    color: bisque;
+}
+*/
+
+/*-----------------------*/
+
+@media (min-width: 480px) and (max-width:768px) {
+    .box {
+        background-color: burlywood;
+        color: #111;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            'footer header'
+            'main header';
+    }
+}
+
+.b2 {
+    background-image: url(../images/biblioteca.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    max-height: 100%;
+    color: bisque;
+}
